@@ -1,0 +1,16 @@
+:root{
+    --purple-dark: #433D3C;
+    --purple-light: #944E6C;
+    --beige: #E9C496;
+    --green: #83A95C;
+
+}
+
+
+body{
+    color: var(--purple-dark);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
